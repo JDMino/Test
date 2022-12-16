@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <span>MyPage</span>
+    <header class="cabecera" id="primero">
+        <h1>MyPage</h1>
         <nav>
             <ul>
                 <li>Inicio</li>
@@ -19,13 +20,23 @@
             </ul>
         </nav>
     </header>
-    <section class="descripcion" id="contenedor">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis minima labore non eos ipsum praesentium. Ab, similique harum? Praesentium, at tempore dolore sed quidem magni iure quis velit excepturi in.
-        
-        </p>
+    <br>
+    <section class="hero" id="hero">
+        <div class="hero-text">
+            <h2>Conocenos</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis minima labore non eos ipsum
+                praesentium. Ab, similique harum? Praesentium, at tempore dolore sed quidem magni iure quis velit
+                excepturi in.
+            </p>
+            <div class="hero-botones">
+                <button>Productos</button>
+                <button>Contactos</button>
+            </div>
+        </div>
+        <img src="./libros.jpg" alt="libros">
     </section>
-    <form action="">
+    <!-- <form action="">
         <label for="Name">Nombre:</label>
         <input type="text" id="Name" name="Name" /> <br>
         <br>
@@ -50,7 +61,7 @@
         <textarea name="" id="" cols="30" rows="10"></textarea>
         <br>
         <input type="submit" value="Enviar" />
-    </form>
+    </form> -->
 
 </body>
 

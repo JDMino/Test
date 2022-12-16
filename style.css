@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@400;500&family=Poppins:wght@300&family=Spline+Sans:wght@300&display=swap');
+
+:root{
+    --rojo: #ec7272;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+/*Header*/
+
+.cabecera{
+    height: auto;
+    width: 100%;
+    background-color: lightblue;
+    /* background: url(./descarga.png) no-repeat;
+    background-size: cover; */
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+h1{
+    font-weight: 100;
+    font-size: 20px;
+    color: var(--rojo);
+}
+
+nav ul{
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li{
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: var(--rojo);
+}
+
+
+/*Section Hero*/
+.hero{
+    display: flex;
+    padding: 2rem;
+    margin: 1rem;
+    color: #000;
+    background-color: var(--rojo);
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.hero img{
+    height: 100px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+}
+
+.hero-text p{
+    margin-top: 10px;
+}
+
+.hero-text .hero-botones{
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    
+}
+
+.hero-botones button{
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 50px;
+    border: solid #000;
+    border-width: thin;
+    cursor: pointer;
+}
+
+.hero-botones button:hover{
+        background: lightblue;
+}
